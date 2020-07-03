@@ -1,0 +1,52 @@
+@media all and (max width: 1000px) {
+  .top-wrapper {
+    text-align: left;
+  }
+
+  .top-wrapper h1 {
+  font-size: 32px;
+}
+
+.heading h2 {
+  font-size: 20px;
+}
+
+.product {
+  margin-right: 30px;
+
+}
+
+
+
+
+
+
+
+
+@media all and (max width: 670px) {
+  .menu-icon {
+    display: block;
+  }
+
+  ul {
+    display: none;
+  }
+
+  .top-wrapper h1 , h2 {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .product {
+    width: 100%;
+}
