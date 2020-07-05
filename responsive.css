@@ -1,4 +1,4 @@
-@media all and (max width: 1000px) {
+@media (max width: 1000px) {
   .top-wrapper {
     text-align: left;
   }
@@ -23,7 +23,7 @@
 
 
 
-@media all and (max width: 670px) {
+@media (max width: 670px) {
   .menu-icon {
     display: block;
   }
