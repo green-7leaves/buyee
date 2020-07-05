@@ -1,19 +1,12 @@
+
 @media (max width: 1000px) {
-  .top-wrapper {
-    text-align: left;
+  .heading h2 {
+    font-size: 20px;
   }
 
-  .top-wrapper h1 {
-  font-size: 32px;
-}
-
-.heading h2 {
-  font-size: 20px;
-}
-
-.product {
-  margin-right: 30px;
-
+  .product {
+    margin-right: 30px;
+  }
 }
 
 
@@ -49,4 +42,5 @@
 
   .product {
     width: 100%;
+  }
 }
