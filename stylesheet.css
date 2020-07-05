@@ -1,3 +1,4 @@
+
 html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p, div {
@@ -7,6 +8,10 @@ h1, h2, h3, h4, h5, h6, p, div {
 
 .title {
   color: #02ccba;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -22,6 +27,7 @@ a {
 .container {
   margin: 0 auto;
   width: 1170px;
+  max-width: 1170px;
 }
 
 
@@ -92,7 +98,6 @@ li:hover {
 .top-wrapper {
   background-image: url(https://images.unsplash.com/photo-1559925393-8be0ec4767c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80);
   background-size: cover;
-  height: 570px;
   color: white;
   opacity: 0.8;
   text-align:center;
@@ -131,7 +136,7 @@ li:hover {
 .products {
   text-align: center;
   margin: 0 auto;
-  padding: 0 100px;
+  padding: 0 160px;
 }
 
 .product {
@@ -139,7 +144,7 @@ li:hover {
   float: left;
   border: 1.5px solid #ffe1e0;
   margin-right: 110px;
-  padding: 0;
+  padding: 0 ;
   border-radius: 5px;
   height: 170px;
 }
@@ -154,6 +159,10 @@ li:hover {
   margin: 0 auto;
   padding: 20px 0;
   font-size: 12px;
+}
+
+.clear {
+  clear: left;
 }
 
 .promo {
