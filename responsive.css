@@ -1,11 +1,15 @@
 
-@media (max width: 1000px) {
+@media (max-width: 1000px) {
+
+  .top-hreader h1 , h2 {
+    font-size: 32px;
+  }
   .heading h2 {
     font-size: 20px;
   }
 
   .product {
-    margin-right: 30px;
+    margin-right: 10px;
   }
 }
 
@@ -16,7 +20,7 @@
 
 
 
-@media (max width: 670px) {
+@media (max-width: 670px) {
   .menu-icon {
     display: block;
   }
